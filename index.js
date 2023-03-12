@@ -3194,7 +3194,7 @@ case 'memek': {
                         quoted: m
                     })
                 } 
-            }
+            
             break
             case 'setmenu2': {
                 if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
@@ -5320,7 +5320,7 @@ case 'memek': {
 
             break
             case 'circlemarcotteam': {
-                if (db.data.settings[botNumber].userRegister && !db.data.users[m.sender].registered) return alpha.send2ButMes(m.chat, `🇮🇩 _Hi @${m.sender.split('@')[0]} silahkan verifikasi terlebih dahulu sebelum memakai fitur bot_${enter}${enter}🇺🇸 _Hi @${m.sender.split('@')[0]} please verify first before using the bot feature_`, `© ${ownername}`, `.daftar ` + pushname, `??🇸 Verify`, `.daftar ` + pushname, 'Daftar 🇮🇩', fkontak, [m.sender])
+                if (db.data.settings[botNumber].userRegister && !db.data.users[m.sender].registered) return alpha.send2ButMes(m.chat, `🇮🇩 _Hi @${m.sender.split('@')[0]} silahkan verifikasi terlebih dahulu sebelum memakai fitur bot_${enter}${enter}🇺🇸 _Hi @${m.sender.split('@')[0]} please verify first before using the bot feature_`, `© ${ownername}`, `.daftar ` + pushname, `🇺🇸 Verify`, `.daftar ` + pushname, 'Daftar 🇮🇩', fkontak, [m.sender])
                 if (!isPremium && db.data.users[m.sender].limit < 1) return alpha.send2ButMes(m.chat, lang.Nolimit(prefix), `© ${ownername}`, `.daily`, `👉 Daily`, `.weekly`, `Weekly 👈`, m)
                 if (!text) return reply(lang.maketeamlogo('logo', 'lionsnake', prefix, command))
                 if (!text.includes('|')) return reply(lang.maketeamlogo('logo', 'lionsnake', prefix, command))
