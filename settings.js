@@ -6,7 +6,7 @@ const {
    spanyol
 } = require(`./language`)
 
-global.OpenAIKey = "YOUR_KEY" //login to https://platform.openai.com/account/api-keys to get apikey
+global.OpenAIKey = "GVdh52kM" //login to https://platform.openai.com/account/api-keys to get apikey
 // Website Api (jgn di ganti tomlol)
 global.APIs = {
    alfa: 'https://api.zeeoneofc.my.id', //apabila link api eror, segera laporkan ke owner
@@ -15,16 +15,29 @@ global.APIs = {
 //buy apikey premium 0887435047326
 // Free apikey (silahkan login terus ganti V12 dgn apikey lu)
 global.APIKeys = {
-   'https://api.zeeoneofc.my.id': 'V12', // 👉 login https://api.zeeoneofc.my.id to get apikey
+   'https://api.zeeoneofc.my.id': 'GVdh52kM', // 👉 login https://api.zeeoneofc.my.id to get apikey
 }
 global.sewabotnya = `
-edit sewabot di file settings.js line 19
+◆ ▬▬▬▬ ❴✪❵ ▬▬▬▬ ◆
+𝙿𝚁𝙸𝙲𝙴𝙻𝙸𝚂𝚃 
+𝚂𝙴𝚆𝙰 𝙱𝙾𝚃 
+•𝟷 𝙷𝙰𝚁𝙸 = 𝙵𝚁𝙴𝙴
+•𝟷 𝙼𝙸𝙽𝙶𝙶𝚄 = 𝟷𝟶𝙺
+•𝟷 𝙱𝚄𝙻𝙰𝙽 = 𝟸𝟻𝙺
+•𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃 = 𝟻𝟶𝙺
+𝙹𝙰𝙳𝙸 𝙾𝚆𝙽𝙴𝚁
+•𝟷 𝙷𝙰𝚁𝙸 = 𝟻𝙺
+•𝟷 𝙼𝙸𝙽𝙶𝙶𝚄 = 𝟹𝟶𝙺
+•𝟷 𝙱𝚄𝙻𝙰𝙽 = 𝟾𝟶𝙺
+•𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃 𝟷𝟶𝟶𝙺
+wa.me/62895700121662
+◆ ▬▬▬▬▬▬▬▬▬▬ ◆
 `
 // setting 
 global.firtsChat = true //send firts message to new user
 global.autoread = true // auto read message
 global.antidelete = false // anti delete
-global.antiviewonce = true // anti view once
+global.antiviewonce = false // anti view once
 global.autobio = false //auto ganti bio
 global.anticall = true //anti call 
 global.userRegister = false
