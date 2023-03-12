@@ -2567,7 +2567,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             break
             case 'owner':
             case 'creator': {
-                sendContact(m.chat, global.bagus, m)
+                sendContact(global.bagus, m)
             }
             break
             case 'rules': {
@@ -3129,6 +3129,64 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                         footer: `© ${ownername}`,
                         title: salam + ' ' + pushname,
                         buttonText: "Select Here",
+                        sections
+                    }
+
+                    alpha.sendMessage(m.chat, listMessage, {
+                        quoted: m
+                    })
+                } else {
+                    db.data.settings[botNumber].typemenu = text
+                    reply(lang.ok())
+                }
+            }
+            break
+case 'memek': {
+                if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
+                
+                    const sections = [{
+                        "title": "Set Menu-1",
+                        "rows": [{
+                            "title": "Menu Katalog",
+                            "rowId": ".setmenu katalog"
+                        }]
+                    }, {
+                        "title": "Set Menu-2",
+                        "rows": [{
+                            "title": "Menu Katalog Diskon",
+                            "rowId": ".setmenu katalog2"
+                        }]
+                    }, {
+                        "title": "Set Menu-3",
+                        "rows": [{
+                            "title": "Menu List Message",
+                            "rowId": ".setmenu list"
+                        }]
+                    }, {
+                        "title": "Set Menu-4",
+                        "rows": [{
+                            "title": "Menu Document",
+                            "rowId": ".setmenu document"
+                        }]
+                    }, {
+                        "title": "Set Menu-5",
+                        "rows": [{
+                            "title": "Template Location",
+                            "rowId": ".setmenu templateLocation"
+                        }]
+                    }, {
+                        "title": "Set Menu-6",
+                        "rows": [{
+                            "title": "Template Image",
+                            "rowId": ".menu"
+                        }]
+                    }]
+
+                    const listMessage = {
+                        text: lang.SetAh(),
+                        footer: `© ${ownername}`,
+                        title: 'Halo Memek',
+                        buttonText: "Pilih Ajg",
                         sections
                     }
 
@@ -7880,8 +7938,9 @@ alpha.sendMessage(from, { text: `Pertanyaan : ${q}\nJawaban : *${kapankah}*` }, 
 break
 case 'whitelist':
 case 'wl':
+if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
 if (!q) return reply(`Penggunaan ${command} Pertanyaan\n\nContoh : ${command} Saya Mati`)
-alpha.sendMessage(from, { text: `: Nickname: *${q}* Berhasil di daftarkan ke database!` }, { quoted: m })
+alpha.sendMessage(from, { text: `Nickname: *${q}* Berhasil di daftarkan ke database!` }, { quoted: m })
 break
 case 'apakah':
 if (!q) return reply(`Penggunaan ${command} text\n\nContoh : ${command} saya wibu`)
