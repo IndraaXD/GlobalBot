@@ -3195,52 +3195,51 @@ case 'bkp':
                 }
             }
             break
-case 'memek': {
-                if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
-                
+case 'grupset': 
+case 'keamanan': {
                     const sections = [{
-                        "title": "Set Menu-1",
+                        "title": "ANTILINK 1",
                         "rows": [{
-                            "title": "Menu Katalog",
-                            "rowId": ".setmenu katalog"
+                            "title": "ANTILINK⚠️",
+                            "rowId": ".antilink on"
                         }]
                     }, {
-                        "title": "Set Menu-2",
+                        "title": "ANTILINK 2",
                         "rows": [{
-                            "title": "Menu Katalog Diskon",
-                            "rowId": ".setmenu katalog2"
+                            "title": "ANTILINK2⚠️",
+                            "rowId": ".antilink2 on"
                         }]
                     }, {
-                        "title": "Set Menu-3",
+                        "title": "ANTI WAME 1",
                         "rows": [{
-                            "title": "Menu List Message",
-                            "rowId": ".setmenu list"
+                            "title": "ANTI WAME-1⚠️",
+                            "rowId": ".antiwame on"
                         }]
                     }, {
-                        "title": "Set Menu-4",
+                        "title": "ANTI WAME 2",
                         "rows": [{
-                            "title": "Menu Document",
-                            "rowId": ".setmenu document"
+                            "title": "ANTI WAME-2⚠️",
+                            "rowId": ".antiwame2 on"
                         }]
                     }, {
-                        "title": "Set Menu-5",
+                        "title": "MENYALAKAN FITUR NSFW 🔞",
                         "rows": [{
-                            "title": "Template Location",
-                            "rowId": ".setmenu templateLocation"
+                            "title": "NSFW ON⚠️",
+                            "rowId": ".nsfw on"
                         }]
                     }, {
-                        "title": "Set Menu-6",
+                        "title": "MEMATIKAN FITUR NSFW🔞",
                         "rows": [{
-                            "title": "Template Image",
-                            "rowId": ".menu"
+                            "title": "NSFW OFF",
+                            "rowId": ".nsfw off"
                         }]
                     }]
 
                     const listMessage = {
                         text: lang.SetAh(),
                         footer: `© ${ownername}`,
-                        title: 'Halo Memek',
-                        buttonText: "Pilih Ajg",
+                        title: 'Halo Bangg Mau Pilih Yang Mana?',
+                        buttonText: "Pilih Bang",
                         sections
                     }
 
